@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Game</title>
+</head>
+    <style>
+    
+        *{
+            font-family: 'Poppins',sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        body{
+            overflow: hidden;
+        }
+    
+        h1{
+            background-color: #34495E; /* Slate Blue */
+            color: #ECF0F1; /* Light Gray for text */
+            font-family: 'Arial', sans-serif;
+            font-size: 35px; /* You can adjust the font size to your liking */
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            width: 150px;
+            position: absolute;
+            top: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+      #player1Score{
+        left:35%;
+      }
+      #player2Score{
+        right:35%;
+      }
+    </style>
+
+<body>
+<canvas id="canvas"></canvas>
+<h1 id="player1Score">0</h1>
+<h1 id="player2Score">0</h1>
+
+<script src="./script.js"></script>
+
+
+</body>
+</html>
